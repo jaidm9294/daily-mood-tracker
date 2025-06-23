@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌈 Daily Mood Tracker</h1>
+      <p>Select your mood for today and get inspired!</p>
+    </header>
+
+    <section class="mood-selector">
+      <h2>How are you feeling today?</h2>
+      <div class="emoji-options">
+        <button class="emoji" data-mood="happy">😊</button>
+        <button class="emoji" data-mood="sad">😢</button>
+        <button class="emoji" data-mood="angry">😠</button>
+        <button class="emoji" data-mood="relaxed">😌</button>
+        <button class="emoji" data-mood="anxious">😟</button>
+        <button class="emoji" data-mood="excited">🤩</button>
+        <button class="emoji" data-mood="bored">🥱</button>
+        <button class="emoji" data-mood="tired">😴</button>
+        <button class="emoji" data-mood="motivated">💪</button>
+      </div>
+      <button id="submitMood">Submit Mood</button>
+    </section>
+
+    <section class="quote-display">
+      <h2>✨ Your Inspirational Quote</h2>
+      <p id="quoteText">Select a mood to get your quote!</p>
+      <div class="quote-actions">
+        <button id="saveQuote">💾 Save Quote</button>
+        <button id="shareQuote">📤 Share Quote</button>
+      </div>
+    </section>
+
+    <section class="mood-history">
+      <h2>📅 Your Mood History</h2>
+      <ul id="moodList"></ul>
+    </section>
+
+    <section class="controls">
+      <button id="clearData">🗑️ Reset All Data</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
