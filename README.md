@@ -54,14 +54,6 @@ daily-mood-tracker/
 ├── script.js        # Interactive JavaScript logic
 └── README.md        # Project description
 ```
-
----
-
-## 🌐 Live Demo (Optional)
-
-If GitHub Pages is enabled:
-[🔗 View Live Project](https://your-username.github.io/daily-mood-tracker/)
-
 ---
 
 ## 🙌 Contributing
